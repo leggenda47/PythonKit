@@ -110,7 +110,7 @@ public struct PythonObject {
         return reference.borrowedPyObject
     }
     
-    fileprivate var ownedPyObject: OwnedPyObjectPointer {
+    public var ownedPyObject: OwnedPyObjectPointer {
         return reference.ownedPyObject
     }
 }
