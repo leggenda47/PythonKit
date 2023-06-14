@@ -18,8 +18,7 @@
 // Required Python typealiases and constants.
 //===----------------------------------------------------------------------===//
 
-@usableFromInline
-typealias PyObjectPointer = UnsafeMutableRawPointer
+public typealias PyObjectPointer = UnsafeMutableRawPointer
 typealias PyMethodDefPointer = UnsafeMutableRawPointer
 typealias PyCCharPointer = UnsafePointer<Int8>
 typealias PyBinaryOperation =

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'PythonKit'
-  s.version     = '0.3.1'
+  s.version     = '0.3.3'
   s.summary     = 'Swift framework to interact with Python.'
 
   s.homepage    = 'https://github.com/leggenda47/PythonKit'
